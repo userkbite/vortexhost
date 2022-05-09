@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Rift-Bold;
+    src: url(Fort\ Foundry\ -\ Rift-Bold.otf);
+}
+
+@font-face {
+    font-family: Rift-Light;
+    src: url(Fort\ Foundry\ -\ Rift-Light.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rift-Bold', sans-serif;
+}
+
+#header {
+    background-color: #1d1f21;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.container-1 img {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.container-1 p {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#main {
+    width: 100%;
+    padding: 4rem 12rem;
+}
+
+.section-welcome h2 {
+    font-family: 'Rift-Light', sans-serif;
+    font-size: 4rem;
+    font-size: 300;
+    margin-bottom: -15px;
+    margin-left: .3rem;
+    font-style: italic;
+}
+
+.section-welcome span {
+    font-family: 'Rift-Bold', sans-serif;
+    font-size: 6.5rem;
+    color: #A702FF;
+    font-style: italic;
+}
+
+.section-join-server {
+    margin-left: .5rem;
+}
+
+.section-join-server p {
+    margin-bottom: 1.5rem;
+}
+
+.section-join-server a {
+    text-decoration: none;
+    background-color: #A702FF;
+    padding: 10px 75px 10px 75px;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.section-development {
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 1rem; 
+    margin-left: .5rem;
+}
+
+.section-development h2 {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    #main {
+        padding: 4rem 2rem;
+    }
+}
